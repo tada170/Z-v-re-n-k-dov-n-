@@ -1,1 +1,1 @@
-# Z-v-re-n-k-dov-n-
+# zaverecne kodovani
