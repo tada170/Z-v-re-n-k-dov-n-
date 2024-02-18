@@ -1,8 +1,8 @@
 header,
 footer {
-    padding: 20px;
-    height: 50px;
+    height: 100px;
     background-color: #b6edff;
+    padding: 0px 20px;
 }
 
 .prihlas {
@@ -12,22 +12,26 @@ footer {
     font-size: 15px;
     float: left;
     border-radius: 12px;
+    margin-top: 25px;
 }
 
 .search {
+    margin-top: 20px;
     float: right;
-    margin-top: 10px;
 }
 
 .find {
     float: none;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin-left: 0px;
+    font-size: large;
 }
 
 input[type=text] {
-    height: 25px;
+    height: 45px;
+    width: 200px;
+    font-size: large
 }
 
 section {
@@ -35,11 +39,15 @@ section {
     width: 310px;
     background-color: #d9d9d9;
     text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
 
 main {
-    width: 58%;
-    margin-left: 21%;
+    width: 63%;
+    margin-left: 16.5%;
     padding: 50px;
     background-color: #bed8ff;
 }
@@ -67,9 +75,10 @@ footer button {
 }
 
 .pf img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    margin-right: 15px;
 }
 
 .pf,
@@ -77,4 +86,20 @@ footer button {
     float: left;
     display: flex;
     flex-direction: row;
+}
+.contacts, .add{
+    margin-top: 25px;
+}
+.pf{
+    margin-top: 15px;
+}
+.gulas {
+    height: 200px;
+    width: 310px;
+}
+
+.caption {
+    position: absolute;
+    top: 65%;
+    left: 35%;
 }
