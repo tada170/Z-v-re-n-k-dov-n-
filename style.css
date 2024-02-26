@@ -35,8 +35,7 @@ input[type=text] {
 }
 
 section {
-    height: 200px;
-    width: 310px;
+
     background-color: #d9d9d9;
     text-align: center;
     position: relative;
@@ -56,7 +55,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px 90px;
 }
 
 footer p {
@@ -93,13 +92,45 @@ footer button {
 .pf{
     margin-top: 15px;
 }
-.gulas {
-    height: 200px;
-    width: 310px;
+.gulas,section {
+    height: 250px;
+    width: 370px;
 }
 
 .caption {
     position: absolute;
     top: 65%;
     left: 35%;
+}
+
+@media screen and (max-width: 768px) {
+    .search{
+        float: left;
+    }
+    header{
+        height: 160px;
+        width: 100%;
+    }
+    .nav{
+        flex-direction: column;
+        display: flex;
+    }
+    main,footer{
+        width: 100%;
+        margin: 0;
+    }
+    .gulas,section{
+        width: 310px;
+        height: 210px;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    footer{
+        height: 150px;
+    }
+    .add{
+        margin-right: 60px;
+    }
+
 }
