@@ -52,7 +52,7 @@ main {
     background-color: #bed8ff;
 }
 .container{
-    gap: 50px 90px;
+    gap: 20px 80px;
 }
 .container , .recept-container{
     display: flex;
