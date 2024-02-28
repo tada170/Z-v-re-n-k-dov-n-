@@ -96,16 +96,13 @@ footer button {
     margin-top: 15px;
 }
 .gulas,section {
-    height: 250px;
-    width: 370px;
-}
-.gulas,section {
-    height: 250px;
-    width: 370px;
+    height: 200px;
+    width: 300px;
 }
 
 .caption {
     position: absolute;
+    color: white;
     top: 65%;
     left: 35%;
 }
@@ -114,15 +111,17 @@ footer button {
     gap: 25px;
 }
 .description ,.recipie{
-    
+
     color: black;
     text-shadow: none;
 }
 .description{
     width: 70%;
+    height: auto;
     font-size: 20px;
 }
 .recipie{
+    height: auto;
     width: 100%;
     text-align: start;
     font-size: 25px;
