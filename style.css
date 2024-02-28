@@ -47,7 +47,7 @@ section {
 
 main {
     width: 63%;
-    margin-left: 16.5%;
+    margin-left: 15.85%;
     padding: 50px;
     background-color: #bed8ff;
 }
@@ -118,13 +118,16 @@ footer button {
 .description{
     width: 70%;
     height: auto;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 15px;
+    left: 5px;
 }
 .recipie{
     height: auto;
-    width: 100%;
+    width: auto;
     text-align: start;
-    font-size: 25px;
+    font-size: 22px;
+    margin-top: 70px;
     padding: 10px;
 }
 
@@ -156,6 +159,9 @@ footer button {
     }
     .add{
         margin-right: 60px;
+    }
+    .description{
+        left: 0px;
     }
 
 }
