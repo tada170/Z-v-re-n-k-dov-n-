@@ -36,6 +36,7 @@ input[type=text] {
 
 section {
 
+
     background-color: #d9d9d9;
     text-align: center;
     position: relative;
@@ -50,12 +51,13 @@ main {
     padding: 50px;
     background-color: #bed8ff;
 }
-
-.container {
+.container{
+    gap: 50px 90px;
+}
+.container , .recept-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 50px 90px;
 }
 
 footer p {
@@ -88,9 +90,14 @@ footer button {
 }
 .contacts, .add{
     margin-top: 25px;
+    font-size: 20px;
 }
 .pf{
     margin-top: 15px;
+}
+.gulas,section {
+    height: 250px;
+    width: 370px;
 }
 .gulas,section {
     height: 250px;
@@ -101,6 +108,25 @@ footer button {
     position: absolute;
     top: 65%;
     left: 35%;
+}
+.recept-container{
+    flex-direction: row;
+    gap: 25px;
+}
+.description ,.recipie{
+    
+    color: black;
+    text-shadow: none;
+}
+.description{
+    width: 70%;
+    font-size: 20px;
+}
+.recipie{
+    width: 100%;
+    text-align: start;
+    font-size: 25px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
